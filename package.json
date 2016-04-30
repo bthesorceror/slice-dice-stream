@@ -1,0 +1,20 @@
+{
+  "name": "slice-dice-stream",
+  "version": "1.0.0",
+  "description": "Stream for slicing up lines by text location into objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*_test.js"
+  },
+  "keywords": [],
+  "author": "Brandon Farmer <bthesorceror@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "concat-stream": "^1.5.1",
+    "split": "^1.0.0",
+    "tape": "^4.5.1"
+  }
+}
